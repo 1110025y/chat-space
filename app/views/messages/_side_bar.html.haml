@@ -1,0 +1,18 @@
+.chat-bar
+  .chat-bar__header
+    .chat-bar__header__side-box
+      %p.chat-bar__header__side-box__username masa
+      %ul.chat-bar__header__side-box__menu
+        %li.chat-bar__header__side-box__menu__edit
+          = link_to "#", class: "edit__btn" do
+            = icon('fab', 'edit', class: "edit__btn--icon")
+        %li.chat-bar__header__side-box__menu__cog
+          = link_to "#", class: "cog__btn" do
+            = icon('fas', 'cog', class: "cog__btn--icon")
+  .chat-bar__group
+    %p.chat-bar__group__name techcamp
+    %p.chat-bar__group__text まだメッセージがありません
+
+
+
+
