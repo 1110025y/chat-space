@@ -112,6 +112,7 @@
     background-color: #fafafa;
     height: calc(100% - 190px);
     padding: 40px 0 0 40px;
+    overflow: scroll;
     &__box{
       display: flex;
       &__name{
@@ -149,6 +150,7 @@
         &__inputtext{
           border-style: none;
           background-color: #fafafa;
+          width: 100%;
         }
         .file-btn{
           display: none;
