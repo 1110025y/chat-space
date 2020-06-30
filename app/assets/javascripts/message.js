@@ -54,9 +54,6 @@ $(function(){
     })
 
 
-    //.always(function(){
-     // $('.chat-main__form__content__submitbtn').prop('disabled', false);
-   // })
     .done(function(data) {
       let html = buildHTML(data);
       $('.chat-main__messages').append(html)
@@ -66,7 +63,6 @@ $(function(){
     })
     .fail(function() {
       alert("メッセージ送信に失敗しました");
-      //$('.chat-main__form__content__submitbtn').prop('disabled', false);
     });
   });
 });
