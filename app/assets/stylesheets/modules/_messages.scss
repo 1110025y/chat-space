@@ -137,24 +137,31 @@
   &__form{
     background-color: #d2d2d2;
     height: 90px;
-    padding: 30px 0;
+    padding: 22px 0;
     &__content{
       display: flex;
+      height: 50px;
       &__text-box{
         width: 100%;
         background-color: #fafafa;
-        padding: 0 10px;
         margin-left: 40px;
         display: flex;
-        justify-content: space-between;
+        position: relative;
         &__inputtext{
           border-style: none;
           background-color: #fafafa;
           width: 100%;
+          padding: 10px;
         }
-        .file-btn{
-          display: none;
-        }
+        .input-box__image{
+          position: absolute;
+          margin-left: 96%;
+          margin-top: 7px;
+          font-size: 25px;
+          .file-btn{
+            display: none;
+          }
+        }      
       }
       
       &__submitbtn{
