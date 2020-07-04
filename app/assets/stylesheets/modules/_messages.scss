@@ -49,14 +49,19 @@
     background-color: #2f3e51;
     height: calc(100% - 100px);
     padding: 20px 20px 0 20px;
-    .Group__name{
-      font-size: 15px;
-      color: #ffffff;
-    }
-    .Group__message{
-      font-size: 11px;
-      color: #ffffff;
-      margin: 5px 0 40px 0;
+    .name{
+      text-decoration: none;
+      .Group__name{
+        font-size: 15px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .Group__message{
+        font-size: 11px;
+        color: #ffffff;
+        margin: 5px 0 40px 0;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -158,7 +163,7 @@
         }
         .input-box__image{
           position: absolute;
-          margin-left: 96%;
+          right: 10px;
           margin-top: 7px;
           font-size: 25px;
           .file-btn{
